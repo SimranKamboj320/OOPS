@@ -26,7 +26,7 @@ class Student{
     String password;
     int marks[];
 
-    //copy contructor
+    //copy contructor  //shallow copy constrcutor
     Student(Student s1){
         marks = new int[3];
         this.name = s1.name;
